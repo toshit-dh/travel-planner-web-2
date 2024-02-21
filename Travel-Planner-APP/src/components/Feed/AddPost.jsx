@@ -155,7 +155,7 @@ export default function AddPost({setAdd}) {
             <button onClick={handleSubmit}>Post</button>
           </div>
         </div>
-        <FloatingActionButton onClick={()=>setAdd(false)}>+</FloatingActionButton>
+        <FloatingActionButton onClick={()=>setAdd(false)}>X</FloatingActionButton>
       </Container>
       <ToastContainer />
     </>
